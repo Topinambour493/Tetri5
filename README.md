@@ -6,4 +6,4 @@ Il faut également la librairie Pygame, pour l'installer -> https://www.pygame.o
 
 Executez le fichier tetri5.py
 
-Pour renitialiser les meilleurs scores, executez le fichier renitialisation.py
+Pour renitialiser les meilleurs scores, executez le fichier renitialise.py
