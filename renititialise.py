@@ -1,5 +1,3 @@
-
-
 import pickle
 
 def sauvegarde(variable,fichier):
@@ -8,6 +6,5 @@ def sauvegarde(variable,fichier):
     pickle.dump(variable,outfile)
     outfile.close()
 
-score=[0,0,0,0,0,0,0,0,0,0] #il y a 10 zéros qui vont remplacer les meilleurs scores
-print(score)
-sauvegarde(score,"fichier_meilleurs_scores_tetri5")
+scores=[0,0,0,0,0,0,0,0,0,0] #il y a 10 zéros qui vont remplacer les meilleurs scores
+sauvegarde(scores,"fichier_meilleurs_scores_tetri5")
